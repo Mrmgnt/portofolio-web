@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="centered-text">Hello, I Am Razki</h1>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <img src="asset/razkiai.jpeg" alt="Programmer at work">
+            <div class="content">
+                <h1>RAZKI FADILLAH</h1>
+                <p>| Teknik Informatika P2k | 2255201167 |</p>
+            </div>
+
+            <div class="slider">
+                <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1)">&#10095;</button>
+                <div class="card-wrapper">
+                    <div class="slide card-content">
+                        <h3>Pengertian & perbedaan antara Client Side Scripting dengan Server Side Scripting</h3>
+                        <p>Client-side scripting adalah kode yang dieksekusi di sisi pengguna, biasanya di dalam browser
+                            web. Script ini berjalan pada perangkat pengguna setelah halaman web diunduh dari server.
+                            Contoh Client Side Scripting yaitu HTML, CSS, JAVASCRIPT, Animasi menu dropdown, Validasi
+                            formulir</p>
+                    </div>
+
+                    <div class="slide card-content">
+                        <h3>Macam-macam jenis protokol dan contohnya</h3>
+                        <p>Server-side scripting adalah kode yang dieksekusi di sisi server. Script ini berjalan di
+                            server sebelum halaman web dikirim ke browser pengguna. Contoh Server Side Scripting yaitu
+                            PHP, Pyton, Ruby, Node.JS, Login pengguna dan autentikasi, Toko online</p>
+                    </div>
+
+                    <div class="slide card-content">
+                        <h3>Pengertian Web Server</h3>
+                        <p>Web server adalah perangkat lunak yang dijalankan di komputer server yang menyimpan,
+                            memproses, dan mengirimkan halaman web kepada klien (web browser) melalui protokol HTTP atau
+                            HTTPS.</p>
+                    </div>
+
+                    <div class="slide card-content">
+                        <h3>Pengertian Web Browser</h3>
+                        <p>Web browser adalah perangkat lunak aplikasi yang dijalankan di komputer atau perangkat mobile
+                            pengguna, yang digunakan untuk mengakses, menampilkan, dan berinteraksi dengan konten web.
+                            Contohnya Google Chrome, Mozilla, Microsoft Edge</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="card-form">
+            <div class="formulir">
+                <form action="https://youtu.be/NFAkAhSdAG8?si=O4yhzghnn6HItycA" method="post" class="form"
+                    id="contact-form">
+                    <h2 style="color: #191919; text-align: center;">Isi Data Terlebih Dahulu</h2>
+                    <div style="display: flex; flex-direction: column;">
+                        <input class="input" type="text" name="name" id="name" placeholder="Masukkan Nama"
+                            maxlength="20" required>
+                        <input type="password" name="password" class="input" placeholder="Masukkan Password"
+                            maxlength="10" id="password" required>
+                        <div
+                            style="display: flex; flex-direction: row; margin-bottom: 10px; color: #191919; font-size: small;">
+                            <input type="checkbox" name="showpassword" id=" showpassword" onclick="showPassword()">Show
+                            Password
+                        </div>
+
+                        <input type="text" name="gender" class="input" placeholder="Jenis Kelamin" required>
+                        <div style="color: #191919; display: flex; flex-direction: column; padding: 4px;">
+                            <select  class="input" name="religion" style="color: #191919; margin-bottom: 10px;">
+                                <option value="islam">Islam</option>
+                                <option value="khonghucu">Khonghucu</option>
+                                <option value="buddha">Buddha</option>
+                                <option value="katolik">Katolik</option>
+                                <option value="protestan">Protestan</option>
+                                <option value="hindu">Hindu</option>
+                            </selec
+                        </div>
+                        <input type="text" required name="hobi" placeholder="Hobi" class="input">
+                        <input type="text" required name="alamat" placeholder="Alamat" maxlength="50" class="input">
+                        <input type="text" required name="tempatlahir" placeholder="Tempat Lahir" class="input">
+                        <input type="date" required name="tanggallahir" class="input">
+                        <input type="text" name="status" required placeholder="Status Pernikahan" class="input">
+                        <input type="text" maxlength="3" name="gol" required placeholder="Golongan Darah" class="input">
+                        <div style="display: flex; flex-direction: row-reverse">
+                            <button type="submit"
+                                style="padding: 5px; padding-left: 20px; padding-right: 20px; color: #ffff; border-radius: 5px; margin-left: 10px; background-color: #5ab75c; border: 0; cursor: pointer; font-family: Poppins, sans-serif;">Submit</button>
+                            <button type="reset" name="reset" id="reset"
+                                style="color: #191919; padding-left: 20px; padding-right: 20px; background-color: #338aed; border-radius: 5px; color: #ffff; border: 0; cursor: pointer; font-family: Poppins, sans-serif;">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
