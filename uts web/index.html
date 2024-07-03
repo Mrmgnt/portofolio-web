@@ -62,56 +62,60 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
-        <div class="card-form">
-            <div class="formulir">
-                <form action="https://youtu.be/NFAkAhSdAG8?si=O4yhzghnn6HItycA" method="post" class="form"
-                    id="contact-form">
-                    <h2 style="color: #191919; text-align: center;">Isi Data Terlebih Dahulu</h2>
-                    <div style="display: flex; flex-direction: column;">
-                        <input class="input" type="text" name="name" id="name" placeholder="Masukkan Nama"
-                            maxlength="20" required>
-                        <input type="password" name="password" class="input" placeholder="Masukkan Password"
-                            maxlength="10" id="password" required>
-                        <div
-                            style="display: flex; flex-direction: row; margin-bottom: 10px; color: #191919; font-size: small;">
-                            <input type="checkbox" name="showpassword" id=" showpassword" onclick="showPassword()">Show
-                            Password
-                        </div>
 
-                        <input type="text" name="gender" class="input" placeholder="Jenis Kelamin" required>
-                        <div style="color: #191919; display: flex; flex-direction: column; padding: 4px;">
-                            <select  class="input" name="religion" style="color: #191919; margin-bottom: 10px;">
+        <div class="card-body">
+            <div class="formulir">
+                <form action="https://youtu.be/NFAkAhSdAG8?si=O4yhzghnn6HItycA" method="post" class="form" id="contact-form">
+                    <h2 style="color: #191919; text-align: center;">Isi Data Terlebih Dahulu</h2>
+                    <div class="form-grid">
+                        <div class="form-item">
+                            <input class="input" type="text" name="name" id="name" placeholder="Masukkan Nama" maxlength="20" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="password" name="password" class="input" placeholder="Masukkan Password" maxlength="10" id="password" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="gender" class="input" placeholder="Jenis Kelamin" required>
+                        </div>
+                        <div class="form-item">
+                            <select class="input" name="religion" style="color: #191919;">
                                 <option value="islam">Islam</option>
                                 <option value="khonghucu">Khonghucu</option>
                                 <option value="buddha">Buddha</option>
                                 <option value="katolik">Katolik</option>
                                 <option value="protestan">Protestan</option>
                                 <option value="hindu">Hindu</option>
-                            </selec
+                            </select>
                         </div>
-                        <input type="text" required name="hobi" placeholder="Hobi" class="input">
-                        <input type="text" required name="alamat" placeholder="Alamat" maxlength="50" class="input">
-                        <input type="text" required name="tempatlahir" placeholder="Tempat Lahir" class="input">
-                        <input type="date" required name="tanggallahir" class="input">
-                        <input type="text" name="status" required placeholder="Status Pernikahan" class="input">
-                        <input type="text" maxlength="3" name="gol" required placeholder="Golongan Darah" class="input">
-                        <div style="display: flex; flex-direction: row-reverse">
-                            <button type="submit"
-                                style="padding: 5px; padding-left: 20px; padding-right: 20px; color: #ffff; border-radius: 5px; margin-left: 10px; background-color: #5ab75c; border: 0; cursor: pointer; font-family: Poppins, sans-serif;">Submit</button>
-                            <button type="reset" name="reset" id="reset"
-                                style="color: #191919; padding-left: 20px; padding-right: 20px; background-color: #338aed; border-radius: 5px; color: #ffff; border: 0; cursor: pointer; font-family: Poppins, sans-serif;">Reset</button>
+                        <div class="form-item">
+                            <input type="text" required name="hobi" placeholder="Hobi" class="input">
                         </div>
+                        <div class="form-item">
+                            <input type="text" required name="alamat" placeholder="Alamat" maxlength="50" class="input">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" required name="tempatlahir" placeholder="Tempat Lahir" class="input">
+                        </div>
+                        <div class="form-item">
+                            <input type="date" required name="tanggallahir" class="input">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="status" required placeholder="Status Pernikahan" class="input">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" maxlength="3" name="gol" required placeholder="Golongan Darah" class="input">
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: flex-end; margin-top: 10px;">
+                        <button type="submit" style="padding: 5px 20px; color: #fff; background-color: #5ab75c; border: 0; border-radius: 5px; cursor: pointer; font-family: 'Poppins', sans-serif;">Submit</button>
+                        <button type="reset" name="reset" id="reset" style="padding: 5px 20px; color: #fff; background-color: #338aed; border: 0; border-radius: 5px; cursor: pointer; margin-left: 10px; font-family: 'Poppins', sans-serif;">Reset</button>
                     </div>
                 </form>
             </div>
         </div>
-
+        
     </div>
-
 
     <script src="script.js"></script>
 </body>
