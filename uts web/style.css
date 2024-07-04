@@ -49,13 +49,13 @@ body {
     background-color: #181919;
     color: black;
     position: relative;
-    margin: 20px;
+    margin: 0px;
     border-radius: 10px;
 }
 
 .card-body {
     max-width: 100%;
-    background-color: #edeae6;
+    background-color: #303131;
     color: black;
     margin: 0 auto;
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
@@ -89,12 +89,14 @@ body {
 
 .content h1 {
     font-size: 4em;
+    color: white;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
     margin-bottom: 10px;
 }
 
 .content p {
+    color: white;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -176,6 +178,7 @@ body {
     width: 60vw;
     border-radius: 45px;
     background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     font-family: "Poppins", sans-serif;
 }
 
@@ -215,8 +218,8 @@ body {
 
     .card-content {
         font-size: 12px;
-        padding: 20px;
-        margin: 10px 0;
+        padding: 25px;
+        margin: 10px 10px;
     }
 
     .formulir form {
@@ -226,7 +229,7 @@ body {
     .card,
     .card-body {
         margin: 0px;
-        padding: 0px;
+        padding: 1px;
     }
 }
 
@@ -247,8 +250,8 @@ body {
 
     .card-content {
         font-size: 10px;
-        padding: 15px;
-        margin: 10px 0;
+        padding: 25px;
+        margin: 10px 10px;
     }
 
     .formulir form {
